@@ -1,6 +1,6 @@
 FROM teamcity-minimal-agent:latest
 
-MAINTAINER Vladislav Rassokhin <vladislav.rassokhin@jetbrains.com>
+MAINTAINER Tom Paulus <tom@whitestar.systems>
 
 LABEL dockerImage.teamcity.version="latest" \
       dockerImage.teamcity.buildNumber="latest"
