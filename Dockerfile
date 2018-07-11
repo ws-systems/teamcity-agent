@@ -24,7 +24,7 @@ RUN apt-get update && \
     systemctl disable docker && \
     curl -SL https://github.com/docker/compose/releases/download/1.20.1/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose && \
     \
-    curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && \
+    curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get update && \
     apt-get install -y nodejs && \
     npm install npm --global && \
